@@ -1,0 +1,7 @@
+# How to run example scripts
+1. Edit "Analysis.C" and change file name.
+2. root -l -b -q Analysis.C+
+   ( This step converts ntuple to tree by track reconstruction)
+3. Edit "CheckData.C" and change file name.
+4. root -l -b -q CheckData.C+
+   (This step draws histograms and hit map)
